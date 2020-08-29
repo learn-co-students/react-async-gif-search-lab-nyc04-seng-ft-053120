@@ -8,7 +8,6 @@ export default class GifSearch extends React.Component {
 
   handleSearchInput = (e) => {
     const searchValue = e.target.value
-
     this.setState({ searchValue })
   }
 
@@ -17,9 +16,6 @@ export default class GifSearch extends React.Component {
     this.props.searchGifs(this.state.searchValue)
   }
   
-
-  
-
   render() {
     return (
       <form onSubmit={this.handleSearchSubmit}>

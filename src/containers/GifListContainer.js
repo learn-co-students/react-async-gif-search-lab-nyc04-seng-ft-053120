@@ -4,8 +4,6 @@ import GifList from "../components/GifList";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
 
-// ** path to the actual image is images.original.url
-
 export default class GifListContainer extends React.Component {
 
   state = {
